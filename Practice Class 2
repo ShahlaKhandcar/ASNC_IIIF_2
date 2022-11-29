@@ -1,0 +1,247 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://3a5683bc-7a23-4b2c-af23-ab5eed60f870",
+	"@type": "sc:Manifest",
+	"label": "Manifest Editor Palaeography Class 8",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "A Selection of Manuscripts ",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://7bc320ce-4534-466a-b8ca-0846696b405f",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00034024/canvas/9",
+					"@type": "sc:Canvas",
+					"label": "IIv (0009)",
+					"service": {
+						"@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+						"physicalScale": 0.00635,
+						"physicalUnits": "cm",
+						"profile": "http://iiif.io/api/annex/services/physdim"
+					},
+					"images": [
+						{
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00034024_00009/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00034024_00009",
+									"profile": "http://iiif.io/api/image/2/level2.json",
+									"protocol": "http://iiif.io/api/image"
+								},
+								"format": "image/jpeg",
+								"width": 5180,
+								"height": 7458
+							},
+							"on": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00034024/canvas/9"
+						}
+					],
+					"width": 5180,
+					"height": 7458,
+					"related": {
+						"@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00034024/manifest",
+						"label": "Das ist der Rom-Weg von meylen zu meylen mit puncten verzeychnet von eyner stat zu der andern durch deutzsche lantt",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://dms-data.stanford.edu/data/manifests/Parker/nm203xw8381/canvas/canvas-10",
+					"@type": "sc:Canvas",
+					"label": "f. 1v",
+					"height": 9283,
+					"width": 6215,
+					"images": [
+						{
+							"@id": "https://dms-data.stanford.edu/data/manifests/Parker/nm203xw8381/imageanno/anno-10",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://stacks.stanford.edu/image/iiif/nm203xw8381/002I_001_V_TC_46/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 9283,
+								"width": 6215,
+								"service": {
+									"@id": "https://stacks.stanford.edu/image/iiif/nm203xw8381%252F002I_001_V_TC_46",
+									"profile": "http://iiif.io/api/image/2/level1.json",
+									"@context": "http://iiif.io/api/image/2/context.json"
+								}
+							},
+							"on": "https://dms-data.stanford.edu/data/manifests/Parker/nm203xw8381/canvas/canvas-10"
+						}
+					],
+					"otherContent": [
+						{
+							"@type": "sc:AnnotationList",
+							"@id": "https://dms-data.stanford.edu/data/manifests/Parker/nm203xw8381/list/1v.json"
+						}
+					],
+					"related": {
+						"@id": "https://dms-data.stanford.edu/data/manifests/Parker/nm203xw8381/manifest.json",
+						"label": "Cambridge, Corpus Christi College, MS 002I: The Bury Bible",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://dms-data.stanford.edu/data/manifests/Parker/nm203xw8381/canvas/canvas-18",
+					"@type": "sc:Canvas",
+					"label": "f. 5v",
+					"height": 9487,
+					"width": 6227,
+					"images": [
+						{
+							"@id": "https://dms-data.stanford.edu/data/manifests/Parker/nm203xw8381/imageanno/anno-18",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://stacks.stanford.edu/image/iiif/nm203xw8381/002I_005_V_TC_46/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 9487,
+								"width": 6227,
+								"service": {
+									"@id": "https://stacks.stanford.edu/image/iiif/nm203xw8381%252F002I_005_V_TC_46",
+									"profile": "http://iiif.io/api/image/2/level1.json",
+									"@context": "http://iiif.io/api/image/2/context.json"
+								}
+							},
+							"on": "https://dms-data.stanford.edu/data/manifests/Parker/nm203xw8381/canvas/canvas-18"
+						}
+					],
+					"otherContent": [
+						{
+							"@type": "sc:AnnotationList",
+							"@id": "https://dms-data.stanford.edu/data/manifests/Parker/nm203xw8381/list/5v.json"
+						}
+					],
+					"related": {
+						"@id": "https://dms-data.stanford.edu/data/manifests/Parker/nm203xw8381/manifest.json",
+						"label": "Cambridge, Corpus Christi College, MS 002I: The Bury Bible",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://dms-data.stanford.edu/data/manifests/Parker/nm203xw8381/canvas/canvas-36",
+					"@type": "sc:Canvas",
+					"label": "f. 14v",
+					"height": 9571,
+					"width": 5951,
+					"images": [
+						{
+							"@id": "https://dms-data.stanford.edu/data/manifests/Parker/nm203xw8381/imageanno/anno-36",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://stacks.stanford.edu/image/iiif/nm203xw8381/002I_014_V_TC_46/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 9571,
+								"width": 5951,
+								"service": {
+									"@id": "https://stacks.stanford.edu/image/iiif/nm203xw8381%252F002I_014_V_TC_46",
+									"profile": "http://iiif.io/api/image/2/level1.json",
+									"@context": "http://iiif.io/api/image/2/context.json"
+								}
+							},
+							"on": "https://dms-data.stanford.edu/data/manifests/Parker/nm203xw8381/canvas/canvas-36"
+						}
+					],
+					"related": {
+						"@id": "https://dms-data.stanford.edu/data/manifests/Parker/nm203xw8381/manifest.json",
+						"label": "Cambridge, Corpus Christi College, MS 002I: The Bury Bible",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://dms-data.stanford.edu/data/manifests/Parker/nm203xw8381/canvas/canvas-28",
+					"@type": "sc:Canvas",
+					"label": "f. 10v",
+					"height": 9523,
+					"width": 6011,
+					"images": [
+						{
+							"@id": "https://dms-data.stanford.edu/data/manifests/Parker/nm203xw8381/imageanno/anno-28",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://stacks.stanford.edu/image/iiif/nm203xw8381/002I_010_V_TC_46/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 9523,
+								"width": 6011,
+								"service": {
+									"@id": "https://stacks.stanford.edu/image/iiif/nm203xw8381%252F002I_010_V_TC_46",
+									"profile": "http://iiif.io/api/image/2/level1.json",
+									"@context": "http://iiif.io/api/image/2/context.json"
+								}
+							},
+							"on": "https://dms-data.stanford.edu/data/manifests/Parker/nm203xw8381/canvas/canvas-28"
+						}
+					],
+					"related": {
+						"@id": "https://dms-data.stanford.edu/data/manifests/Parker/nm203xw8381/manifest.json",
+						"label": "Cambridge, Corpus Christi College, MS 002I: The Bury Bible",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00034024/canvas/18",
+					"@type": "sc:Canvas",
+					"label": "VIIr (0018)",
+					"service": {
+						"@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+						"physicalScale": 0.0062320954907161795,
+						"physicalUnits": "cm",
+						"profile": "http://iiif.io/api/annex/services/physdim"
+					},
+					"images": [
+						{
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00034024_00018/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00034024_00018",
+									"profile": "http://iiif.io/api/image/2/level2.json",
+									"protocol": "http://iiif.io/api/image"
+								},
+								"format": "image/jpeg",
+								"width": 5278,
+								"height": 7534
+							},
+							"on": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00034024/canvas/18"
+						}
+					],
+					"width": 5278,
+					"height": 7534,
+					"related": {
+						"@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00034024/manifest",
+						"label": "Das ist der Rom-Weg von meylen zu meylen mit puncten verzeychnet von eyner stat zu der andern durch deutzsche lantt",
+						"format": ""
+					}
+				}
+			]
+		}
+	],
+	"structures": [],
+	"viewingDirection": "left to right"
+}
